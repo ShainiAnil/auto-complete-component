@@ -1,15 +1,7 @@
-import { useState } from 'react'
-import './App.css'
+import { Search } from "./components/Search/Search";
 
-function App() {
- 
+const App = () => {
+  return <Search />;
+};
 
-  return (
-    <>
-    
-    
-    </>
-  )
-}
-
-export default App
+export default App;
