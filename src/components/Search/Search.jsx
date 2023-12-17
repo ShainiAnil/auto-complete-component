@@ -39,7 +39,7 @@ export const Search = () => {
 
   const clearSearch = () => {
     setSearchInputValue("");
-    setSearchList([]);
+    setFilteredList([]);
   };
 
   return (
